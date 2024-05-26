@@ -11,3 +11,13 @@ const newCarsData = cars.pop();
 console.log(newCarsData);
 console.log(cars);
 // Iteration through for loop
+for (let i = 0; i < cars.length; i++) {
+    console.log("i", i);
+    console.log("cars in loop", cars[i]);
+}
+// Iteration thorugh for...loop
+for (const car of cars) {
+    console.log("for looop", car);
+}
+// Iteration through for each loop
+cars.forEach((car) => console.log("for each", car));
