@@ -1,3 +1,4 @@
+"use strict";
 // In JavaScript
 // function sum(a,b){
 // return a + b
