@@ -10,7 +10,7 @@ class Persons3 {
     constructor(public name: string, public hobbies: string[]) { }
 
 
-
+    // setter to set the value
     public set age(age: number) {
 
         if (age < 0 || age > 150) {
@@ -20,7 +20,7 @@ class Persons3 {
         this._age = age
 
     }
-
+    // getter to get the value
     public get age() {
 
         if (this._age === undefined) {
@@ -42,10 +42,14 @@ class Persons3 {
 const person11: Persons3 = new Persons3("anas", ["read", "code"])
 const person12: Persons3 = new Persons3("ali", ["gaming", "gardening"])
 
+
+// setting the value
 person11.age = 15
 
 
 console.log(person11.introduce())
 console.log(person12.introduce())
 
+
+// getting the value
 console.log(person11.age)

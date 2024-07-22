@@ -11,5 +11,5 @@ function add(a, b, c) {
     console.log(typeof b);
     console.log(typeof c);
 }
-const result = add(1, "hello", true);
+const results = add(1, "hello", true);
 const resultTwo = add("anas", "rafiq", false);

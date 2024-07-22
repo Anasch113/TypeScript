@@ -20,6 +20,6 @@ function add<T, U, V>(a: T, b: U , c:boolean) {
 
 }
 
-const result = add<number, string, boolean>(1, "hello", true)
+const results = add<number, string, boolean>(1, "hello", true)
 
 const resultTwo = add<string, string, boolean>("anas", "rafiq", false)

@@ -1,6 +1,6 @@
 // Starting of OOPS in typescript. Topic : Classes in OOPS typescript
 
-
+// Classes defined as the blueprint to create the objects
 
 class Persons {
 

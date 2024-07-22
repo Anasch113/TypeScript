@@ -8,12 +8,14 @@ class Persons3 {
         this.name = name;
         this.hobbies = hobbies;
     }
+    // setter to set the value
     set age(age) {
         if (age < 0 || age > 150) {
             throw new Error("Age not valid");
         }
         this._age = age;
     }
+    // getter to get the value
     get age() {
         if (this._age === undefined) {
             throw new Error("age is not defined");
@@ -26,7 +28,9 @@ class Persons3 {
 }
 const person11 = new Persons3("anas", ["read", "code"]);
 const person12 = new Persons3("ali", ["gaming", "gardening"]);
+// setting the value
 person11.age = 15;
 console.log(person11.introduce());
 console.log(person12.introduce());
+// getting the value
 console.log(person11.age);
